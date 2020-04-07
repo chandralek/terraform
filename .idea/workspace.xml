@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76ae256d-c37e-4b96-93ee-987bf7a616ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Examples/03-provisioners/instance.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/03-provisioners/provider.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examples/01-var.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/01-basics/01-var.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examples/dev.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/01-basics/dev.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examples/hello.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/01-basics/hello.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/03-provisioners/instance.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/03-provisioners/instance.tf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +14,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.1">
+    <splitter split-orientation="horizontal" split-proportion="0.33222592">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
@@ -43,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Examples/03-provisioners/instance.tf">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+                <state>
+                  <caret column="31" selection-start-column="31" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -186,18 +181,18 @@
       <workItem from="1586103588435" duration="247000" />
       <workItem from="1586103914983" duration="1690000" />
       <workItem from="1586187474674" duration="2376000" />
-      <workItem from="1586268586832" duration="1660000" />
+      <workItem from="1586268586832" duration="1759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6513000" />
+    <option name="totallyTimeSpent" value="6612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26495728" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26495728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -206,7 +201,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -282,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Examples/03-provisioners/instance.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
