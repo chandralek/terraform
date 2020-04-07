@@ -23,6 +23,13 @@ variable "MAP" {
 variable "SAMPLE" {
 }
 
+variable "ENV" {
+}
+
+output "ENV" {
+  value = var.ENV
+}
+
 output "SAMPLE" {
   value = var.SAMPLE
 }
