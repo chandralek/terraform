@@ -24,7 +24,7 @@ variable "SAMPLE" {
 }
 
 output "SAMPLE" {
-  value = var.NAME
+  value = var.SAMPLE
 }
 
 output "MAP" {
