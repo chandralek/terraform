@@ -20,6 +20,13 @@ variable "MAP" {
     "yellow" ="Mango"}
 }
 
+variable "SAMPLE" {
+}
+
+output "SAMPLE" {
+  value = var.NAME
+}
+
 output "MAP" {
   value = var.MAP["red"]
 }
