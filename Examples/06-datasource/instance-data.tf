@@ -5,3 +5,7 @@ data "aws_instance" "foo" {
 output "PUBLICIP" {
   value = data.aws_instance.foo.public_ip
 }
+
+provider "aws" {
+  region = "us-west-2"
+}
