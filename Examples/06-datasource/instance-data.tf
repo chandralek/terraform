@@ -1,5 +1,5 @@
 data "aws_instance" "foo" {
-  instance_id = "i-instanceid"
+  instance_id = "i-0e9cda17efa36c441"
 }
 
 output "PUBLICIP" {
