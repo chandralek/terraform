@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76ae256d-c37e-4b96-93ee-987bf7a616ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Examples/06-datasource/instance-data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/06-datasource/instance-data.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examples/07-import/instance.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Examples/06-datasource/instance-data.tf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
               <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Examples/07-import/instance.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -96,15 +106,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/terraform.tfvars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -137,6 +138,7 @@
         <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/main.tf" />
         <option value="$PROJECT_DIR$/Examples/05-locals/main.tf" />
         <option value="$PROJECT_DIR$/Examples/06-datasource/instance-data.tf" />
+        <option value="$PROJECT_DIR$/Examples/07-import/instance.tf" />
       </list>
     </option>
   </component>
@@ -167,7 +169,7 @@
               <item name="terraform" type="b2602c69:ProjectViewProjectNode" />
               <item name="terraform" type="462c0819:PsiDirectoryNode" />
               <item name="Examples" type="462c0819:PsiDirectoryNode" />
-              <item name="06-datasource" type="462c0819:PsiDirectoryNode" />
+              <item name="07-import" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,18 +242,18 @@
       <workItem from="1586187474674" duration="2376000" />
       <workItem from="1586268586832" duration="3604000" />
       <workItem from="1586323389936" duration="1000" />
-      <workItem from="1586355364056" duration="4700000" />
+      <workItem from="1586355364056" duration="5035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13158000" />
+    <option name="totallyTimeSpent" value="13493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -260,7 +262,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40816328" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40816328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,6 +459,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/07-import/instance.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>
