@@ -1,4 +1,3 @@
-module "module1"
-{
+module "security-group" {
   source = "./security-group"
 }
