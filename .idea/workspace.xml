@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76ae256d-c37e-4b96-93ee-987bf7a616ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Examples/05-locals/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examples/06-datasource/instance-data.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +15,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.9">
+    <splitter split-orientation="vertical" split-proportion="0.81329113">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -36,11 +36,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Examples/05-locals/main.tf">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="23" selection-start-line="23" selection-end-line="23" />
+                <state relative-caret-position="447">
+                  <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Examples/06-datasource/instance-data.tf">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -77,15 +86,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="24">
                   <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Examples/04-modules/02-module-inputs/01-while-calling-modules/main.tf">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="48">
-                  <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -154,6 +154,7 @@
         <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/module.tf" />
         <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/main.tf" />
         <option value="$PROJECT_DIR$/Examples/05-locals/main.tf" />
+        <option value="$PROJECT_DIR$/Examples/06-datasource/instance-data.tf" />
       </list>
     </option>
   </component>
@@ -184,7 +185,7 @@
               <item name="terraform" type="b2602c69:ProjectViewProjectNode" />
               <item name="terraform" type="462c0819:PsiDirectoryNode" />
               <item name="Examples" type="462c0819:PsiDirectoryNode" />
-              <item name="05-locals" type="462c0819:PsiDirectoryNode" />
+              <item name="06-datasource" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,18 +258,18 @@
       <workItem from="1586187474674" duration="2376000" />
       <workItem from="1586268586832" duration="3604000" />
       <workItem from="1586323389936" duration="1000" />
-      <workItem from="1586355364056" duration="3883000" />
+      <workItem from="1586355364056" duration="4497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12341000" />
+    <option name="totallyTimeSpent" value="12955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -277,7 +278,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.03265306" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,8 +466,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Examples/05-locals/main.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="447">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/06-datasource/instance-data.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
