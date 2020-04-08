@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76ae256d-c37e-4b96-93ee-987bf7a616ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/ec2-server/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/module.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/output.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,19 +22,42 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Examples/04-modules/01-basics/module1/main.tf">
+            <entry file="file://$PROJECT_DIR$/Examples/03-provisioners/01-provisioner-inside-resource/instance.tf">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="264">
+                  <caret line="11" column="15" selection-end-line="22" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Examples/04-modules/01-basics/module2/main.tf">
+            <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/ec2-server/main.tf">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="192">
+                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/main.tf">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="48">
+                  <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/output.tf">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/module.tf">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="16" selection-start-column="16" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -57,12 +84,12 @@
             <entry file="file://$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/module1/main.tf">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="48">
-                  <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+                  <caret line="2" column="40" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/main.tf">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="48">
@@ -72,37 +99,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/module1/terraform.tfvars">
+            <entry file="file://$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/terraform.tfvars">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
                   <caret column="14" selection-start-column="14" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Examples/03-provisioners/02-provisioner-outside-resource/provider.tf">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="48">
-                  <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Examples/04-modules/01-basics/main.tf">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Examples/03-provisioners/02-provisioner-outside-resource/instance.tf">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -147,6 +147,9 @@
         <option value="$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/module1/terraform.tfvars" />
         <option value="$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/module1/main.tf" />
         <option value="$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/main.tf" />
+        <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/ec2-server/main.tf" />
+        <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/main.tf" />
+        <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/module.tf" />
       </list>
     </option>
   </component>
@@ -177,6 +180,19 @@
               <item name="terraform" type="b2602c69:ProjectViewProjectNode" />
               <item name="terraform" type="462c0819:PsiDirectoryNode" />
               <item name="Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="03-provisioners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="terraform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="terraform" type="462c0819:PsiDirectoryNode" />
+              <item name="Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="03-provisioners" type="462c0819:PsiDirectoryNode" />
+              <item name="01-provisioner-inside-resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="terraform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="terraform" type="462c0819:PsiDirectoryNode" />
+              <item name="Examples" type="462c0819:PsiDirectoryNode" />
               <item name="04-modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -191,22 +207,6 @@
               <item name="terraform" type="462c0819:PsiDirectoryNode" />
               <item name="Examples" type="462c0819:PsiDirectoryNode" />
               <item name="04-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="01-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="module1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="terraform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="terraform" type="462c0819:PsiDirectoryNode" />
-              <item name="Examples" type="462c0819:PsiDirectoryNode" />
-              <item name="04-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="01-basics" type="462c0819:PsiDirectoryNode" />
-              <item name="module2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="terraform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="terraform" type="462c0819:PsiDirectoryNode" />
-              <item name="Examples" type="462c0819:PsiDirectoryNode" />
-              <item name="04-modules" type="462c0819:PsiDirectoryNode" />
               <item name="02-module-inputs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,34 +214,7 @@
               <item name="terraform" type="462c0819:PsiDirectoryNode" />
               <item name="Examples" type="462c0819:PsiDirectoryNode" />
               <item name="04-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="02-module-inputs" type="462c0819:PsiDirectoryNode" />
-              <item name="01-while-calling-modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="terraform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="terraform" type="462c0819:PsiDirectoryNode" />
-              <item name="Examples" type="462c0819:PsiDirectoryNode" />
-              <item name="04-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="02-module-inputs" type="462c0819:PsiDirectoryNode" />
-              <item name="01-while-calling-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="terraform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="terraform" type="462c0819:PsiDirectoryNode" />
-              <item name="Examples" type="462c0819:PsiDirectoryNode" />
-              <item name="04-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="02-module-inputs" type="462c0819:PsiDirectoryNode" />
-              <item name="02-send-from-root-module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="terraform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="terraform" type="462c0819:PsiDirectoryNode" />
-              <item name="Examples" type="462c0819:PsiDirectoryNode" />
-              <item name="04-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="02-module-inputs" type="462c0819:PsiDirectoryNode" />
-              <item name="02-send-from-root-module" type="462c0819:PsiDirectoryNode" />
-              <item name="module1" type="462c0819:PsiDirectoryNode" />
+              <item name="03-module-ouputs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,6 +240,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module" />
       <recent name="$PROJECT_DIR$/Examples/03-provisioners/01-provisioner-inside-resource" />
       <recent name="$PROJECT_DIR$/Examples/01-basics" />
     </key>
@@ -313,12 +287,12 @@
       <workItem from="1586187474674" duration="2376000" />
       <workItem from="1586268586832" duration="3604000" />
       <workItem from="1586323389936" duration="1000" />
-      <workItem from="1586355364056" duration="1257000" />
+      <workItem from="1586355364056" duration="2456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9715000" />
+    <option name="totallyTimeSpent" value="10914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -407,13 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/03-provisioners/01-provisioner-inside-resource/instance.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Examples/03-provisioners/02-provisioner-outside-resource/provider.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -444,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Examples/04-modules/01-basics/module2/main.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="3">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -456,6 +423,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/module1/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/03-provisioners/01-provisioner-inside-resource/instance.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="15" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/ec2-server/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/output.tf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Examples/04-modules/02-module-inputs/01-while-calling-modules/main.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -463,17 +461,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/module1/terraform.tfvars">
+    <entry file="file://$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/terraform.tfvars">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/module1/main.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -481,6 +472,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/module.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
