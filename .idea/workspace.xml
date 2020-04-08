@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76ae256d-c37e-4b96-93ee-987bf7a616ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/provider.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/module.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/module.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/output.tf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +22,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/ec2-server/main.tf">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                <state relative-caret-position="72">
+                  <caret line="3" column="46" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -31,18 +31,22 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/main.tf">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="48">
-                  <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+                <state relative-caret-position="-105">
+                  <caret column="28" selection-start-column="10" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/output.tf">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="22" selection-start-column="22" selection-end-column="22" />
+                </state>
+              </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/provider.tf">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="24">
@@ -60,11 +64,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/module.tf">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="24">
-                  <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+                <state relative-caret-position="48">
+                  <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
                 </state>
               </provider>
             </entry>
@@ -146,9 +150,10 @@
         <option value="$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/module1/main.tf" />
         <option value="$PROJECT_DIR$/Examples/04-modules/02-module-inputs/02-send-from-root-module/main.tf" />
         <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/ec2-server/main.tf" />
-        <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/main.tf" />
-        <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/module.tf" />
         <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/provider.tf" />
+        <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/main.tf" />
+        <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/output.tf" />
+        <option value="$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/module.tf" />
       </list>
     </option>
   </component>
@@ -229,6 +234,14 @@
               <item name="Examples" type="462c0819:PsiDirectoryNode" />
               <item name="04-modules" type="462c0819:PsiDirectoryNode" />
               <item name="03-module-ouputs" type="462c0819:PsiDirectoryNode" />
+              <item name="ec2-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="terraform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="terraform" type="462c0819:PsiDirectoryNode" />
+              <item name="Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="04-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="03-module-ouputs" type="462c0819:PsiDirectoryNode" />
               <item name="security-group" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -302,12 +315,12 @@
       <workItem from="1586187474674" duration="2376000" />
       <workItem from="1586268586832" duration="3604000" />
       <workItem from="1586323389936" duration="1000" />
-      <workItem from="1586355364056" duration="2979000" />
+      <workItem from="1586355364056" duration="3144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11437000" />
+    <option name="totallyTimeSpent" value="11602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -438,13 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/ec2-server/main.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Examples/04-modules/02-module-inputs/01-while-calling-modules/module/main.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -480,27 +486,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/module.tf">
+    <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/provider.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/main.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="-105">
+          <caret column="28" selection-start-column="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/ec2-server/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/security-group/output.tf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/provider.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examples/04-modules/03-module-ouputs/module.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
         </state>
       </provider>
     </entry>

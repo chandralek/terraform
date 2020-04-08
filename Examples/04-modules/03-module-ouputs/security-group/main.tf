@@ -1,4 +1,4 @@
-resource "aws_security_group" "allow_tls" {
+resource "aws_security_group" "allow_ssh" {
   name        = "allow_sshto-public"
   description = "Allow ssh inbound traffic"
 
