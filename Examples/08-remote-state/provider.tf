@@ -16,3 +16,9 @@ resource "aws_instance" "sample" {
   instance_type = "t3.micro"
   vpc_security_group_ids = ["sg-08a40e4443cb4ef02"]
 }
+
+resource "null_resource" "none" {
+  provisioner "local-exec" {
+    command = "sleep 90"
+  }
+}
