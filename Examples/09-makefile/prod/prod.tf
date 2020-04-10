@@ -1,0 +1,3 @@
+module "SAMPLE" {
+  source = "../module"
+}
